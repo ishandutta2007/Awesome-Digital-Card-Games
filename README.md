@@ -53,9 +53,9 @@ Welcome to the ultimate directory of **digital card games**, **trading card game
 
 ## 🔓 Open-Source GitHub Projects
 
-> **⭐ Open-Source Ecosystem**: High-quality open-source card engines, solitaire collections, and roguelike deckbuilders sorted by GitHub Star Count (descending).
+> **⭐ Open-Source Ecosystem**: High-quality open-source card engines, solitaire collections, and roguelike deckbuilders sorted by GitHub Stars_Count (descending).
 
-| Repository & Description | Stars |
+| Repository & Description | GitHub_Stars |
 | :--- | :--- |
 | **[PySolFC](https://github.com/shlomif/PySolFC)** 🎴 — **The definitive open-source solitaire collection.** Extended fork of PySol supporting **over 1,200 solitaire card games**. Features custom cardsets, sound effects, unlimited undo, player statistics, hint system, and plugin architecture. *GPL-3.0* | [<img src="https://img.shields.io/github/stars/shlomif/PySolFC?style=social&color=white" alt="Stars"/>](https://github.com/shlomif/PySolFC/stargazers) |
 | **[Slay the Web](https://github.com/oskarrough/slaytheweb)** 🌐 — **Browser-based Slay the Spire clone.** Single-player deckbuilding roguelike designed with a **UI-agnostic game engine** built in JavaScript/TypeScript and deployed on Cloudflare. *MIT* | [<img src="https://img.shields.io/github/stars/oskarrough/slaytheweb?style=social&color=white" alt="Stars"/>](https://github.com/oskarrough/slaytheweb/stargazers) |
@@ -81,7 +81,7 @@ Contributions are very welcome! To add a new card game or engine:
 
 1. 🍴 **Fork** this repository.
 2. 📝 **Add/edit** entries in `README.md` maintaining table formatting.
-3. 🔗 Include game/repo name, official link, star badge, precise pricing, and concise description.
+3. 🔗 Include game/repo name, official link, Stars_Badge, precise pricing, and concise description.
 4. 🚀 **Submit a Pull Request** with a descriptive title.
 
 ---
