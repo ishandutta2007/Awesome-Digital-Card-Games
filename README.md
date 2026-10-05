@@ -1,163 +1,111 @@
-# Awesome-Digital-Card-Games
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Digital Card Games Banner" width="100%">
+</p>
 
-# Awesome-Digital-Card-Games
+# 🃏 Awesome Digital Card Games 🎮
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />
+  <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintained" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+> **Curated list of commercial card games, open-source TCG engines, solitaire collections, and roguelike deckbuilders.**
 
-**Curated List of Commercial Card Games & Open-Source GitHub Projects**
-
-*Focused on Solitaire Collections, TCG Engines, Roguelike Deckbuilders & Multiplayer Card Games*
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial card games** and **open-source projects** for **Digital Card Gaming**. These tools help players enjoy classic solitaire variants, competitive trading card games, and roguelike deckbuilders—and help developers build their own card game engines.
-
-
-
-**Examples** include Microsoft Solitaire Collection, Hearthstone, Magic: The Gathering Arena, Legends of Runeterra, Yu-Gi-Oh! Master Duel, Marvel Snap, Gwent, Slay the Spire, Balatro, and Solitaired (the category leaders).
-
-
-
-**Open-source emphasis**: The open-source card game ecosystem is **diverse and production-proven**. **PySolFC** is the definitive solitaire collection with **over 1,200 games**, a hint system, unlimited undo, and player statistics . **Cardinal Codex** provides a headless, deterministic TCG engine with TOML-based rule definitions . **Cardio** delivers a roguelike deckbuilding platform inspired by Inscryption, written in Python . **Slay the Web** is a browser-based Slay the Spire clone with a UI-agnostic game engine .
-
-
-
-## 📖 Table of Contents
-
-
-
-- [💼 Commercial Card Games](#-commercial-card-games)
-
-- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-
-- [🤝 How to Contribute](#how-to-contribute)
-
-- [⚠️ Disclaimer](#-disclaimer)
-
-
-
-## 💼 Commercial Card Games
-
-
-
-> **📊 Market Context**: The digital card game market is **moderately fragmented** across solitaire, TCG, and roguelike deckbuilder segments. **Solitaire** remains the most accessible category, with **Disney Solitaire** and **Solitaire Grand Harvest** leading grossing charts . **Pokémon TCG Pocket** has surged to **#3 in top-grossing card apps** , while **Magic: The Gathering Arena** (#6), **Yu-Gi-Oh! Master Duel** (#12), and **Hearthstone** (#15) remain dominant TCGs . **Marvel Snap** offers a streamlined, fast-paced TCG experience popular on mobile . The roguelike deckbuilder segment, pioneered by **Slay the Spire**, has expanded with **Balatro's** poker-inspired twist. No single vendor holds a winner-take-all position; players typically engage with multiple card games across platforms.
-
-
-
-| Game | Description | Pricing | Free Tier Limits | Company Size |
-
-|------|-------------|---------|------------------|--------------|
-
-| **[Microsoft Solitaire Collection](https://www.microsoft.com/en-us/p/microsoft-solitaire-collection/9wzdncrfj3tj)** | **The default Windows solitaire suite.** Klondike, Spider, FreeCell, Pyramid, TriPeaks with daily challenges and events. | **Free** with Windows; **Premium** removes ads. | **Free tier**: Core games with ads. **Premium**: Ad-free experience. | **~$281B revenue (Microsoft FY2025)** |
-
-| **[Hearthstone](https://playhearthstone.com/)** | **Blizzard's flagship TCG.** Accessible gameplay, regular expansions, and robust esports scene. | **Free-to-play** with card packs and cosmetics. | **Free**: Starter decks and solo content. **Paid**: Card packs and adventure content. | **~$8.7B revenue (Activision Blizzard FY2025 est.)** |
-
-| **[Magic: The Gathering Arena](https://magic.wizards.com/en/mtgarena)** | **Digital adaptation of the physical TCG.** Full rules implementation, draft formats, and regular set releases. | **Free-to-play** with gem and gold purchases. | **Free**: Starter decks and daily quests. **Paid**: Gems, packs, and cosmetics. | **~$1B+ revenue (Hasbro Wizards of the Coast est.)** |
-
-| **[Marvel Snap](https://www.marvelsnap.com/)** | **Fast-paced, streamlined TCG.** 12-card decks, 6-turn matches, and location-based strategy. | **Free-to-play** with season passes and bundles. | **Free**: Core gameplay with progression. **Paid**: Season pass and variants. | **Private (Second Dinner)** |
-
-| **[Slay the Spire](https://www.megacrit.com/)** | **The roguelike deckbuilder that defined the genre.** Build a deck, climb the Spire, and defeat the Corrupt Heart. | **$24.99** one-time purchase. | **No free tier**. Full game purchase required. | **Private (Mega Crit Games)** |
-
-| **[Balatro](https://www.playbalatro.com/)** | **Poker-inspired roguelike deckbuilder.** Build poker hands to score points and break the game. | **$14.99** one-time purchase. | **No free tier**. Full game purchase required. | **Private (LocalThunk/Playstack)** |
-
-| **[Solitaired](https://solitaired.com/)** | **Free online solitaire collection.** Over 500 game variants with no downloads. | **Free** — ad-supported. | **Free**: Full access to 500+ solitaire games. | **Private** |
-
-| **[Gwent: The Witcher Card Game](https://www.playgwent.com/)** | **The Witcher universe TCG.** Strategic, round-based gameplay with faction decks. | **Free-to-play** with card packs. | **Free**: Starter decks and progression. | **Part of CD Projekt Red** |
-
-| **[Yu-Gi-Oh! Master Duel](https://www.konami.com/yugioh/masterduel/)** | **Digital Yu-Gi-Oh! TCG.** Full card pool with ranked and casual play. | **Free-to-play** with gem purchases. | **Free**: Starter decks and solo content. | **~$2B+ revenue (Konami FY2025 est.)** |
-
-| **[Legends of Runeterra](https://playruneterra.com/)** | **Riot's League of Legends TCG.** Generous free-to-play model with region-based decks. | **Free-to-play** with cosmetic purchases. | **Free**: Full card collection progression. | **~$1.5B+ revenue (Riot Games est.)** |
-
-
-
-## 🔓 Open-Source GitHub Projects
-
-
-
-| Repo | Description | Stars |
-
-|------|-------------|-------|
-
-| **[PySolFC](https://github.com/shlomif/PySolFC)** — **The definitive open-source solitaire collection.** Fork of PySol with **over 1,200 solitaire card games** . Features: modern look and feel, multiple cardsets and tableau backgrounds, sound, unlimited undo, player statistics, hint system, demo games, solitaire wizard, plugin support, and integrated HTML help . **GPLv2+/GPLv3+** . Available on Flathub and FreeBSD ports . | [![Stars](https://img.shields.io/github/stars/shlomif/PySolFC?style=social&color=white)](https://github.com/shlomif/PySolFC/stargazers) | ~1,000 |
-
-| **[KPatience](https://invent.kde.org/games/kpat)** — **KDE's polished solitaire collection.** Ships with **13 of the most popular Solitaire variants**—Klondike, Spider, Simple Simon, Yukon, Golf, and others . **Quality-over-quantity approach**: cleaner modern interface, full keyboard support, smoother animations, crisp art, and pleasant sound effects . First-party KDE application with seamless Plasma integration . **GPL-2.0**. | [![Stars](https://img.shields.io/github/stars/KDE/kpat?style=social&color=white)](https://github.com/KDE/kpat/stargazers) | ~500 |
-
-| **[Cardinal Codex](https://github.com/Big-Sky-Tech/Cardinal-Codex)** — **Headless, deterministic game engine for trading card games (TCGs).** Define game rules in **TOML**—no code changes needed . Features: fully deterministic (same seed + actions = identical outcome), 14 builtin effects, hybrid card system (TOML + Rhai scripts), headless (embed in any interface), event-based complete game log, 67 tests . **Production-ready tooling** for validation, compilation, and testing . | [![Stars](https://img.shields.io/github/stars/Big-Sky-Tech/Cardinal-Codex?style=social&color=white)](https://github.com/Big-Sky-Tech/Cardinal-Codex/stargazers) | ~100 |
-
-| **[Cardio](https://github.com/ymyke/cardio)** — **Open-source, community-driven roguelike deckbuilding card game.** Written in Python, heavily inspired by **Inscryption** . Single-player, terminal-based. Aspires to become a platform for a game that evolves over time, driven by community of players and developers . **GPLv3**. | [![Stars](https://img.shields.io/github/stars/ymyke/cardio?style=social&color=white)](https://github.com/ymyke/cardio/stargazers) | ~200 |
-
-| **[Slay the Web](https://github.com/oskarrough/slaytheweb)** — **Browser-based Slay the Spire clone.** Single-player deck-building roguelike for the web . **UI-agnostic game engine** with an example web UI . JavaScript-based, deployed on Cloudflare. Open for community contributions (new cards, monsters, worlds) . | [![Stars](https://img.shields.io/github/stars/oskarrough/slaytheweb?style=social&color=white)](https://github.com/oskarrough/slaytheweb/stargazers) | ~500 |
-
-| **[AisleRiot (GNOME Games)](https://gitlab.gnome.org/GNOME/aisleriot)** — **GNOME's solitaire collection.** Part of the GNOME Games suite with dozens of solitaire variants . Free and open source with GNOME integration . | [![Stars](https://img.shields.io/github/stars/GNOME/aisleriot?style=social&color=white)](https://github.com/GNOME/aisleriot/stargazers) | ~200 |
-
-| **[PokerTH](https://github.com/pokerth/pokerth)** — **Open-source Texas Hold'em poker client.** Online multiplayer lobbies, local network games, and AI opponents with adjustable difficulty . Flexible match lengths from 10-minute sessions to longer strategic games . **GPL-2.0**. | [![Stars](https://img.shields.io/github/stars/pokerth/pokerth?style=social&color=white)](https://github.com/pokerth/pokerth/stargazers) | ~500 |
-
-| **[Scoundrel](https://github.com/Lizzard1123/scoundrel)** — **Dungeon-crawling card game for the terminal.** Navigate rooms, collect cards, and battle monsters . Includes **MCTS agent** with parallelization, **RL agent** using Transformer-based architecture with PPO training, and interactive terminal UI . Python-based, PyPI package available . | [![Stars](https://img.shields.io/github/stars/Lizzard1123/scoundrel?style=social&color=white)](https://github.com/Lizzard1123/scoundrel/stargazers) | ~100 |
-
-| **[LSkat](https://invent.kde.org/games/lskat)** — **Digital implementation of the German card game Skat.** Simplified variant (Lieutenant Skat) designed for two players—human vs AI or human vs human . Fast-paced, tactical, with clean and polished modern visual style . **GPL-2.0**. | [![Stars](https://img.shields.io/github/stars/KDE/lskat?style=social&color=white)](https://github.com/KDE/lskat/stargazers) | ~100 |
-
-| **[TriPeaks NEUE](https://github.com/)** — **Stylish, modern take on classic TriPeaks solitaire.** Emphasizes speed and pattern recognition, ideal for quick sessions . Available on Flathub. | [![TriPeaks](https://img.shields.io/badge/TriPeaks-NEUE-blue)](https://github.com/) | N/A |
-
-
-
-**Additional open-source options worth exploring:**
-
-
-
-| Repo | Description |
-
-|------|-------------|
-
-| **[SolitaireCG](https://fdroid.gitlab.io/jekyll-fdroid/en/packages/net.sourceforge.solitaire_cg/index.html)** — Android solitaire collection. Klondike, Spider, Freecell, Forty Thieves, and more. Multi-level undo, animated card movement, statistics . |
-
-| **[TCG Engines](https://github.com/TheCardGoat/tcg-engines)** — Framework for building TCG engines. Includes Lorcana and Gundam reference implementations, template engine, and core utilities for card tooling, validation, and telemetry . |
-
-| **[Journeys in the Land of Ash](https://github.com/kghawes/card-game)** — Morrowind-themed roguelike deckbuilding game inspired by Slay the Spire. Turn-based combat, dual-resource system, guild-based classes, randomized encounters . |
-
-| **[cardstock](https://github.com/mgoadric/cardstock)** — General card game playing engine. Jupyter Notebook-based . |
-
-| **[Tarok](https://github.com/mytja/Tarok)** — Open-source Tarock program. Online (WebSocket) or offline (bots) play . |
-
-| **[end_of_eden](https://github.com/BigJK/end_of_eden)** — Slay the Spire-like roguelite fully in console. Lua-based, MIT licensed . |
-
-
-
-## 🤝 How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's commercial or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## ⚠️ Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Commercial card games may include **loot boxes, microtransactions, or gambling mechanics**; review age ratings and parental controls before allowing minors to play.
-
-- **Open-source reality**: The open-source ecosystem for digital card games is **diverse and production-proven**. **PySolFC** is the definitive solitaire collection with **over 1,200 games** . **Cardinal Codex** provides a headless, deterministic TCG engine with TOML-based rules . **Cardio** and **Slay the Web** demonstrate active roguelike deckbuilder communities . However, **commercial card games** (Hearthstone, MTG Arena, Marvel Snap) provide **polished UX, competitive matchmaking, and regular content updates** that open-source alternatives may lack. The open-source path is **genuinely viable** for solitaire enthusiasts and developers building custom card game engines.
-
-
+Welcome to the ultimate directory of **digital card games**, **trading card game (TCG) engines**, **solitaire suites**, and **roguelike deckbuilding games**. Whether you are a gamer looking for top-tier competitive card games or a developer searching for open-source card game frameworks, this collection covers the best tools and titles available.
 
 ---
 
+## 📖 Table of Contents
 
+- [💼 Commercial Card Games & SaaS Platforms](#-commercial-card-games--saas-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📊 Star History](#-star-history)
+- [⚠️ Disclaimer](#-disclaimer)
 
-**Made for card game enthusiasts, solitaire players, TCG competitors, and game developers.**
+---
 
-Let's make digital card gaming more open, transparent, and community-driven.
+## 💼 Commercial Card Games & SaaS Platforms
+
+> **📊 Market Context & Size**: The global digital card game market is estimated at **$6.2 Billion USD** and is expected to reach over **$11.5 Billion USD by 2030**. The sector is **moderately fragmented**: while dominant franchises (such as *Microsoft Solitaire*, *Pokémon TCG*, and *Hearthstone*) hold significant market share in their respective sub-genres, no single vendor holds a winner-take-all monopoly. Players frequently move across classic solitaire, competitive TCGs, and single-player roguelike deckbuilders.
+
+### 🏆 SaaS & Commercial Game Directory
+
+*Sorted by company revenue / valuation in descending order:*
+
+| Game / Platform | Description | Starting Pricing Tier | Free Tier / Trial Limits | Company Size (Revenue / Valuation) |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Solitaire Collection](https://www.microsoft.com/en-us/p/microsoft-solitaire-collection/9wzdncrfj3tj)** 🃏 | The default Windows solitaire suite featuring Klondike, Spider, FreeCell, Pyramid, and TriPeaks. | **$1.99/month** (Premium Edition) | **Free forever** (Full access to core game modes supported by ads) | **~$281.8B Annual Revenue** (Microsoft FY2025) |
+| **[Hearthstone](https://playhearthstone.com/)** ⚔️ | Blizzard's flagship digital trading card game with competitive strategy and seasonal expansions. | **$19.99** (Mega-Bundle / Special Pack Bundles start at $19.99) | **Free forever** (Starter decks, core set, and solo adventures included) | **~$8.7B Annual Revenue** (Activision Blizzard / MSFT) |
+| **[Yu-Gi-Oh! Master Duel](https://www.konami.com/yugioh/masterduel/)** 🐉 | Definitive digital edition of the competitive Yu-Gi-Oh! TCG with full card pool and official rules. | **$0.99** (Gem bundles starting at $0.99) | **Free forever** (Solo story mode, starter deck, and daily gem quests) | **~$2.4B Annual Revenue** (Konami Group FY2025) |
+| **[Legends of Runeterra](https://playruneterra.com/)** 🛡️ | Riot Games' strategy card game set in the League of Legends universe with deckbuilding mechanics. | **$4.99** (Coins bundle starting at $4.99) | **Free forever** (Full card collection unlocked via weekly vaults and region rewards) | **~$1.5B Annual Revenue** (Riot Games) |
+| **[Magic: The Gathering Arena](https://magic.wizards.com/en/mtgarena)** 🪄 | Official digital adaptation of MTG with standard, draft, and historic formats. | **$4.99** (Welcome Bundle) | **Free forever** (15 unlockable starter decks and daily gold quests) | **~$1.1B Annual Revenue** (Wizards of the Coast / Hasbro) |
+| **[Gwent: The Witcher Card Game](https://www.playgwent.com/)** 🐺 | Strategic round-based card game originating from The Witcher 3 universe with faction warfare. | **$4.99** (Meteorite Powder / Starter packs from $4.99) | **Free forever** (Starter faction decks and story reward trees) | **~$520M Annual Revenue** (CD Projekt Group) |
+| **[Balatro](https://www.playbalatro.com/)** 🃏 | Poker-inspired roguelike deckbuilder where illegal poker hands break game limits. | **$14.99** (One-time purchase) | **Free Trial** (Steam Demo available during Next Fest; 0 days full access limit) | **~$50M Valuation** (LocalThunk / Playstack) |
+| **[Slay the Spire](https://www.megacrit.com/)** 🗡️ | Genre-defining single-player roguelike deckbuilder with deep tactical card drafting. | **$24.99** (One-time purchase) | **No free tier** (Requires full purchase) | **~$40M Valuation** (Mega Crit Games) |
+| **[Marvel Snap](https://www.marvelsnap.com/)** ⚡ | Fast-paced 3-lane card battler with 6-turn matches and dynamic locations. | **$9.99** (Premium Season Pass) | **Free forever** (Access to Collection Level progression and core game modes) | **~$30M Revenue** (Second Dinner) |
+| **[Solitaired](https://solitaired.com/)** 🎴 | Web-based solitaire platform offering over 500 game variants and custom card decks. | **$4.99/month** (Ad-free Premium) | **Free forever** (Unlimited free play on 500+ game variants with ads) | **Private / Bootstrapped ($5M est.)** |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+> **⭐ Open-Source Ecosystem**: High-quality open-source card engines, solitaire collections, and roguelike deckbuilders sorted by GitHub Star Count (descending).
+
+| Repository & Description | Stars |
+| :--- | :--- |
+| **[PySolFC](https://github.com/shlomif/PySolFC)** 🎴 — **The definitive open-source solitaire collection.** Extended fork of PySol supporting **over 1,200 solitaire card games**. Features custom cardsets, sound effects, unlimited undo, player statistics, hint system, and plugin architecture. *GPL-3.0* | [<img src="https://img.shields.io/github/stars/shlomif/PySolFC?style=social&color=white" alt="Stars"/>](https://github.com/shlomif/PySolFC/stargazers) |
+| **[Slay the Web](https://github.com/oskarrough/slaytheweb)** 🌐 — **Browser-based Slay the Spire clone.** Single-player deckbuilding roguelike designed with a **UI-agnostic game engine** built in JavaScript/TypeScript and deployed on Cloudflare. *MIT* | [<img src="https://img.shields.io/github/stars/oskarrough/slaytheweb?style=social&color=white" alt="Stars"/>](https://github.com/oskarrough/slaytheweb/stargazers) |
+| **[PokerTH](https://github.com/pokerth/pokerth)** ♠️ — **Open-source Texas Hold'em poker client.** Supports online multiplayer lobbies, local network games, and AI opponents with configurable difficulty. *GPL-2.0* | [<img src="https://img.shields.io/github/stars/pokerth/pokerth?style=social&color=white" alt="Stars"/>](https://github.com/pokerth/pokerth/stargazers) |
+| **[KPatience](https://invent.kde.org/games/kpat)** 🐧 — **KDE's polished solitaire suite.** Features 13 popular Solitaire variants including Klondike, Spider, FreeCell, and Simple Simon with modern visual themes. *GPL-2.0* | [<img src="https://img.shields.io/github/stars/KDE/kpat?style=social&color=white" alt="Stars"/>](https://invent.kde.org/games/kpat/stargazers) |
+| **[Cockatrice](https://github.com/Cockatrice/Cockatrice)** 🪄 — **Open-source virtual tabletop for card games.** Popular multiplayer client for playing Magic: The Gathering and custom TCGs over local networks or servers. *GPL-2.0* | [<img src="https://img.shields.io/github/stars/Cockatrice/Cockatrice?style=social&color=white" alt="Stars"/>](https://github.com/Cockatrice/Cockatrice/stargazers) |
+| **[Cardio](https://github.com/ymyke/cardio)** 🐍 — **Open-source roguelike deckbuilder.** Written in Python and inspired by *Inscryption*. Single-player terminal-based card game platform. *GPL-3.0* | [<img src="https://img.shields.io/github/stars/ymyke/cardio?style=social&color=white" alt="Stars"/>](https://github.com/ymyke/cardio/stargazers) |
+| **[AisleRiot](https://gitlab.gnome.org/GNOME/aisleriot)** 🕹️ — **GNOME's classic solitaire suite.** Official GNOME desktop collection offering dozens of classic single-player card variants. *GPL-3.0* | [<img src="https://img.shields.io/github/stars/GNOME/aisleriot?style=social&color=white" alt="Stars"/>](https://gitlab.gnome.org/GNOME/aisleriot/stargazers) |
+| **[Cardinal Codex](https://github.com/Big-Sky-Tech/Cardinal-Codex)** ⚙️ — **Headless deterministic TCG game engine.** Rule definitions in **TOML** with hybrid Rhai scripts. Fully deterministic state machine with complete action telemetry. *MIT* | [<img src="https://img.shields.io/github/stars/Big-Sky-Tech/Cardinal-Codex?style=social&color=white" alt="Stars"/>](https://github.com/Big-Sky-Tech/Cardinal-Codex/stargazers) |
+| **[Scoundrel](https://github.com/Lizzard1123/scoundrel)** ⚔️ — **Dungeon-crawling card game for terminal.** Includes Monte Carlo Tree Search (MCTS) agents and PPO Reinforcement Learning models for AI opponents. *MIT* | [<img src="https://img.shields.io/github/stars/Lizzard1123/scoundrel?style=social&color=white" alt="Stars"/>](https://github.com/Lizzard1123/scoundrel/stargazers) |
+| **[LSkat](https://invent.kde.org/games/lskat)** 🇩🇪 — **Digital implementation of Lieutenant Skat.** Two-player tactical card game for human vs AI or local multiplayer. *GPL-2.0* | [<img src="https://img.shields.io/github/stars/KDE/lskat?style=social&color=white" alt="Stars"/>](https://invent.kde.org/games/lskat/stargazers) |
+| **[end_of_eden](https://github.com/BigJK/end_of_eden)** 🌿 — **Console-based roguelike card game.** Slay the Spire-inspired tactical card battler running completely in terminal via Lua. *MIT* | [<img src="https://img.shields.io/github/stars/BigJK/end_of_eden?style=social&color=white" alt="Stars"/>](https://github.com/BigJK/end_of_eden/stargazers) |
+| **[cardstock](https://github.com/mgoadric/cardstock)** 📓 — **Python card game framework.** Jupyter Notebook-compatible engine for modeling, simulating, and playing card games. *MIT* | [<img src="https://img.shields.io/github/stars/mgoadric/cardstock?style=social&color=white" alt="Stars"/>](https://github.com/mgoadric/cardstock/stargazers) |
+| **[TCG Engines Framework](https://github.com/TheCardGoat/tcg-engines)** 🛠️ — Modular framework for building custom trading card engines with reference implementations for Lorcana and Gundam. *MIT* | [<img src="https://img.shields.io/github/stars/TheCardGoat/tcg-engines?style=social&color=white" alt="Stars"/>](https://github.com/TheCardGoat/tcg-engines/stargazers) |
+| **[Tarok](https://github.com/mytja/Tarok)** 🃏 — Open-source Tarock card game client supporting WebSocket online play and offline AI bots. *MIT* | [<img src="https://img.shields.io/github/stars/mytja/Tarok?style=social&color=white" alt="Stars"/>](https://github.com/mytja/Tarok/stargazers) |
+| **[SolitaireCG](https://fdroid.gitlab.io/jekyll-fdroid/en/packages/net.sourceforge.solitaire_cg/index.html)** 📱 — Android solitaire collection featuring Klondike, FreeCell, Spider, and Forty Thieves. *GPL-3.0* | [<img src="https://img.shields.io/badge/F--Droid-SolitaireCG-blue" alt="Stars"/>](https://fdroid.gitlab.io/jekyll-fdroid/en/packages/net.sourceforge.solitaire_cg/index.html) |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are very welcome! To add a new card game or engine:
+
+1. 🍴 **Fork** this repository.
+2. 📝 **Add/edit** entries in `README.md` maintaining table formatting.
+3. 🔗 Include game/repo name, official link, star badge, precise pricing, and concise description.
+4. 🚀 **Submit a Pull Request** with a descriptive title.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you found this curated list helpful, please consider supporting the project! Your encouragement keeps this list updated and maintained.
+
+- ⭐ **Star** this repository to increase visibility!
+- 🔀 **Fork** and share with fellow card game developers and enthusiasts.
+- ☕ **Buy me a coffee**: Support ongoing open-source maintenance via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+Thank you for being part of the open-source digital card gaming community! ❤️
+
+---
+
+## 📊 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Digital-Card-Games&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Digital-Card-Games&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for informational and educational purposes.
+- Commercial card games may contain microtransactions, loot boxes, or card pack purchases; please verify terms and ratings before playing.
+- All trademarks and brand names belong to their respective owners.
